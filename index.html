@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portifolio Website</title>
+
+  <!--
+      - favicon
+    -->
+  <link rel="shortcut icon" href="./images/22P31A1204.png" type="image/x-icon">
+
+  <!--
+      - custom css link
+    -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!--
+      - google font link
+    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                                      # MAIN 
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <main>
+
+    <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                        # SIDE BAR
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./images/22P31A1204.png" class="image-box" alt="Kowshik Jallipalli" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kowshik">Kowshik</h1>
+          <div class="testimonials-text" data-testimonials-text>
+            <p class="title">Computer Science Student </p>
+          </div>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Details</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jallipallikowshikguptha@gmail.com" class="contact-link">jallipallikowshikguptha@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919542879464" class="contact-link">+91 9542879464</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-05-01">May, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Suramplaem, Andhra Pradesh , India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/kowshikjallipalli0105" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kowshik-jallipalli/" class="social-link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/kowshikguptha/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                              # MAIN CONTENT
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <div class="main-content">
+
+      <!--
+          - #NAVBAR
+        -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Details</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Profile</button>
+          </li>
+
+        </ul>
+
+      </nav>
+      <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                             # ABOUT
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Computer Science student with a deep enthusiasm for technology and a broad skill set that spans web development, software engineering, and cloud solutions. My strength lies in simplifying complex problems into intuitive and user-friendly designs and applications.<br><br>
+
+            With a firm grounding in C++ and Java, I am currently focused on enhancing my skills in Data Structures and Algorithms (DSA) to refine my problem-solving approach. Lately, my efforts have been concentrated on AWS cloud technologies, where I'm advancing my proficiency in building reliable and scalable cloud-based solutions.<br><br>
+
+            In addition to web development, where I'm focusing on JavaScript and React to craft dynamic and responsive applications, I am delving into UI/UX design using Figma, and learning mobile app development through Google Flutter.  I was also having the basic knowledge on the salesfocre. This blend of expertise helps me create seamless, functional, and visually compelling solutions across platforms.<br><br>
+
+            As I continue to grow and evolve in these areas, my long-term objective is to make a lasting contribution to the tech industry, offering innovative solutions that not only fulfill but exceed expectations.
+          </p>
+
+        </section>
+
+        <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                        # SKILLS
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+        <section class="testimonials">
+          <h3 class="h2 article-title">Skills</h3>
+          <br>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/html.png" width="60" style="border-radius: 15px;" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>HTML, CSS</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I enjoy crafting visually appealing and user-friendly websites using HTML and CSS, focusing on delivering a seamless and enjoyable browsing experience."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/aws.png" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Amazon Web Services</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I am exploring AWS Cloud development to build scalable, secure, and high-performance infrastructure, ensuring robust and reliable applications."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/cpp.png" height="44" style=" width: 125px; border-radius: 15px;"
+                    data-testimonials-avatar>
+
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>C++ & Java</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I love using C++ and Java to build efficient, high-performance software that solves complex problems and runs reliably across platforms."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/react.jpg" style="border-radius:20px; width:100px;" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>React and Java Script</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I enjoy building interactive web applications with React and JavaScript, focusing on responsive design, performance optimization, and a seamless user experience through clean, maintainable code."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/flutter.png" style="width: 125px; height: 40px;border-radius: 15px;"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Google Flutter</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I am focused on developing mobile apps with Google Flutter, creating visually appealing, high-performance applications that run smoothly on both iOS and Android platforms."
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/figma.png" style="border-radius: 20px; width: 100px; height: 45px;"
+                    alt="Flutter logo" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Figma and Adobe</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I enjoy using Figma and Adobe tools to design dynamic, visually compelling web interfaces, focusing on creating responsive, user-engaging designs while maintaining high visual quality and performance."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/figma.png" style="border-radius: 20px; width: 100px; height: 45px;"
+                    alt="Flutter logo" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Figma and Adobe</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I enjoy using Figma and Adobe tools to design dynamic, visually compelling web interfaces, focusing on creating responsive, user-engaging designs while maintaining high visual quality and performance."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/figma.png" style="border-radius: 20px; width: 100px; height: 45px;"
+                    alt="Flutter logo" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Figma and Adobe</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I enjoy using Figma and Adobe tools to design dynamic, visually compelling web interfaces, focusing on creating responsive, user-engaging designs while maintaining high visual quality and performance."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 #END OF TECHNOLOGIES 
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+        <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                    #service 
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+        <section class="service">
+          <h3 class="h2 article-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Development</h4>
+
+                <p class="service-item-text">
+                  Effective and scalable cloud solutions designed to meet current needs and adapt to future growth.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/icon-app.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Mobile App Development</h4>
+
+                <p class="service-item-text">
+                  Build natively compiled applications for mobile, web, and desktop using Google's Flutter framework.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/icon-photo.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  Create high-quality user interfaces and experiences using industry-standard tools Figma and Adobe.
+
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>hello lewis</h4>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      </article>
+
+
+      <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                          #RESUME
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+      <article class="details" data-page="details">
+
+        <header>
+          <h2 class="h2 article-title">Details</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">"Bachelor of Technology in Computer Science" &nbsp;(Ongoing)</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                I am currently pursuing a Bachelor's Degree in Computer Science. The program provides a comprehensive
+                education in key areas such as software development, algorithms, and system design, equipping me with
+                the skills and knowledge needed for a successful career in technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">"Secondary Education"</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                I attended Narayana Junior College, focusing on Mathematics, Physics, and Chemistry. The rigorous
+                coursework and dedicated faculty provided a strong foundation in these subjects, preparing me well for
+                higher education and future career opportunities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">"High School Education"</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                I completed my high school education at Narayana English Medium School, where I gained a solid foundation in key
+                subjects like Mathematics, Science, and English. The school also offered various extracurricular
+                activities that helped develop my leadership and teamwork skills. This experience prepared me well for
+                future studies.
+              </p>
+
+            </li>
+
+          </ol>
+          <br><br>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Drive Ready Trainee at Technical Hub : (Ongoing) </h4>
+                <span>2024 : June - Present</span>
+                <p class="timeline-text">
+                  I began a learning journey focused on AWS Cloud Development, where I learned how to use cloud services
+                  effectively. I also explored other tools like Flutter for app development, React for building
+                  interactive websites, and Figma for designing user interfaces. This helped me gain a broad
+                  understanding of modern technology and development practices.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Become Coder Trainee at Technical hub : </h4>
+                <span>2024 : January - May</span>
+                <p class="timeline-text">
+                  In this role, I concentrated on improving my programming skills with Java and learning how to connect
+                  Java applications to databases using JDBC. This training provided me with a strong foundation in
+                  coding and working with data, essential for many programming tasks.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Skillup coder Trainee at Technical Hub :</h4>
+                <span>2023 : August - Dec</span>
+                <p class="timeline-text">
+                  I focused on mastering programming with C++, a language known for its use in various software
+                  applications and systems. I learned about object-oriented programming, which helps in organizing and
+                  managing code efficiently. This experience strengthened my programming skills and understanding of
+                  software development.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Ignite Coder Trainee at Technical Hub :</h4>
+                <span>2022 : October - July</span>
+                <p class="timeline-text">
+                  I received hands-on training in core programming and web development. I learned to use HTML and CSS
+                  for creating websites, C for general programming tasks, Python for various applications, and Data
+                  Structures for organizing and managing data effectively. This comprehensive training built my skills
+                  in both programming and web design.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+        </section>
+
+        <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                #DOWNLOAD #RESUME
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+        <BR>
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- Existing content -->
+
+        <section class="download-section">
+          <header>
+            <h2 class="h2">Download Resume</h2>
+          </header>
+          <p class="download-text">Click the button below to download my resume in PDF format. <br> It contains detailed
+            information about my education, skills, and projects.
+          </p>
+          <a href="./Kowshik_jallipalli_resume.pdf" download class="download-button">Download Resume</a>
+        </section>
+      </article>
+
+
+      <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                          #PROJECTS
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+
+            <li class="filter-item">
+              <button data-filter-btn>AWS Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>JDBC</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-filter-btn>AWS Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-filter-btn>JDBC</button>
+              </li>
+
+              <li class="select-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <!-- WEB DEVELOPMENT  -->
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://karthikeya03.github.io/clone-youtube/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/project-1.jpg" alt="Youtube-Clone" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">YouTube-Clone : Front End</h3>
+
+                <p class="project-category">HTML / CSS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://karthikeya03.github.io/profile-card/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/project-3.jpg" alt="profile-card" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Profile Card - Front End</h3>
+
+                <p class="project-category">HTML / CSS / JAVA SCRIPT</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://karthikeya03.github.io/clone-netflix/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/project-2.png" alt="Netflix-Clone" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Netflix Clone : Front End</h3>
+
+                <p class="project-category">HTML / CSS / JAVA SCRIPT</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-6.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Full Stack E-Commerce Website</h3>
+
+                <p class="project-category">HTML / CSS / JAVA SCRIPT / DYNAMO DB</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-7.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Full Stack Food Booking Site</h3>
+
+                <p class="project-category">HTML / CSS / JAVA SCRIPT / DYNAMO DB</p>
+
+              </a>
+            </li>
+
+
+            <!-- AWS DEVELOPMENT  -->
+
+            <li class="project-item  active" data-filter-item data-category="aws development">
+              <a href="http://bookmy-bucket.s3-website-ap-southeast-2.amazonaws.com/index.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-0.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Creation and Deployment of Interactive Full-Stack Movie Booking Application
+                </h3>
+
+                <p class="project-category">Dynamo Db / Amazon S3</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="aws development">
+              <a href="http://webcraftersfinal.s3-website-ap-southeast-2.amazonaws.com/index.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-9.png" alt="aws-ec2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Deployment of a Dynamic - Interactive Front-End College Fest Application</h3>
+
+                <p class="project-category">Dynamo DB / Amazon S3</p>
+
+              </a>
+            </li>
+
+            <!-- JDBC  -->
+
+            <li class="project-item  active" data-filter-item data-category="jdbc">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/project-10" alt="jdbc-connection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hospital Management System with Database</h3>
+
+                <p class="project-category">Xampp / DBMS</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="jdbc">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-11" alt="jdbc-query" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student Result Management System with Database</h3>
+
+                <p class="project-category">Python / sqlite</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="jdbc">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-12.jpg" alt="jdbc-crud" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">To-Do List Management System with a Database</h3>
+
+                <p class="project-category">Java / Mysql</p>
+
+              </a>
+            </li>
+
+            <!-- APPLICATIONS  -->
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-14.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Intelligent Conversational AI Bot</h3>
+
+                <p class="project-category">Python / API</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-15.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Advanced Facial Recognition System Application</h3>
+
+                <p class="project-category">C++ / STL's</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-5.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"> Interactive Chess Game Application</h3>
+
+                <p class="project-category">Flutter / HTML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-13.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Advanced Secure Password Generator Application</h3>
+                <p class="project-category">Flutter / HTML</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-16" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI Text Summarizer Application using Postman</h3>
+                <p class="project-category">API / python</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!---------------------------------------------------------------------------------------------------
+                                                                     CERTIFICATIONS
+                                                    ----------------------------------------------------------------------------------------------------->
+
+      <article class="projects" data-page="certifications">
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Badges</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Global Certifications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Interships</button>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+        <div class="filter-select-box">
+
+          <button class="filter-select" data-select>
+
+            <div class="select-value" data-selecct-value>Select category</div>
+
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+
+          </button>
+
+          <ul class="select-list">
+
+            <li class="select-item">
+              <button data-select-item>All</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Global Certifications</button>
+            </li>
+
+            <li class="select-item">
+              <button data-filter-btn>Interships</button>
+            </li>
+
+            <li class="select-item">
+              <button data-filter-btn>Badges</button>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+
+        <!--global certifications  -->
+
+        <ul class="project-list">
+
+
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/Artificial Intelligence Fundamentals.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/Artificial Intelligence Fundamentals image.png"
+                  alt="Artificial Intelligence Fundamentals" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Artificial Intelligence Fundamentals Certificate</h3>
+
+              <p class="project-category">IBM Skills Build</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/HTML and CSS.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/html css.png" alt="CCNS" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">AWS IT professionals Certificate</h3>
+
+              <p class="project-category">edX</p>
+
+            </a>
+          </li>
+
+
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/C certificate.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/C certificate image" alt="C certificate" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Programming Essentials in C</h3>
+
+              <p class="project-category">Cisco Learning Network</p>
+
+            </a>
+          </li>
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/Python certificate.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/Python image.png" alt="Python certificate" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Programming Essentials : Python</h3>
+
+              <p class="project-category">Cisco Learning Network</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/Java IT specialist.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/java.png" alt="Java Foundations" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Java-IT Specialist Certificate</h3>
+
+              <p class="project-category">Pearson Education</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/java foundations.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/foundations.png" alt="foundations" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Java Foundations Certificate</h3>
+
+              <p class="project-category">Oracle Academy</p>
+
+            </a>
+          </li>
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/java programming.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/programming.png" alt="foundations" alt="Youtube-Clone"
+                  loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Java Programming Certificate</h3>
+
+              <p class="project-category">Oracle Academy</p>
+
+            </a>
+          </li>
+
+
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/AWS_Academy_Cloud_Foundations.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/cloud foundation.png" alt="foundation-Cloud" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">AWS Academy Cloud Foundations</h3>
+
+              <p class="project-category">Amazon Web Services Training and Certification</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/software engineering infosys.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/infosys.webp" alt="infosys" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Software Engineering Certificate</h3>
+
+              <p class="project-category">Infosys</p>
+
+            </a>
+          </li>
+
+
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/AWS IT professionals.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/edx-aws.webp" alt="edx-aws" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">AWS IT professionals Certificate</h3>
+
+              <p class="project-category">edX</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="global certifications">
+            <a href="./certifications/CCNA.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/cisco.png" alt="CCNS" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">AWS IT professionals Certificate</h3>
+
+              <p class="project-category">edX</p>
+
+            </a>
+          </li>
+
+
+
+          <!-- Interships  -->
+
+          <li class="project-item  active" data-filter-item data-category="interships">
+            <a href="./certifications/internships/THUB AWS.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/aws-intern.png" alt="jdbc-connection" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">AWS Development Internship</h3>
+
+              <p class="project-category">Technical Hub</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="interships">
+            <a href="./certifications/internships/AIML INTERNSHIP.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/edunet.png" alt="jdbc-query" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Artificial Intelligence And Machine Learning</h3>
+
+              <p class="project-category">Edunet Foundations</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="interships">
+            <a href="./certifications/internships/REACT.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/react.avif" alt="jdbc-query" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">React Native 5- Day Bootcamp</h3>
+
+              <p class="project-category">Let's Upgrad</p>
+
+            </a>
+          </li>
+
+          <!-- BADGES  -->
+
+
+          <li class="project-item  active" data-filter-item data-category="badges">
+            <a href="https://www.credly.com/badges/4118da7b-c13a-4456-b1c8-099d822112c5">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/virtualization.png" alt="task manager" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">IT Academy: Cloud and Virtualization Concepts</h3>
+
+              <p class="project-category">Broadcom</p>
+            </a>
+          </li>
+
+
+          <li class="project-item  active" data-filter-item data-category="badges">
+            <a href="https://www.credly.com/badges/44a9b7df-d028-4a78-84b7-746a451fae1e/public_url">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/learn.png" alt="task manager" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Networking Academy Learn-A-Thon 2023</h3>
+
+              <p class="project-category">Cisco</p>
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="badges">
+            <a href="./certifications/linux.pdf">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/linux.jpeg" alt="task manager" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">NDG Linux Unhatched</h3>
+
+              <p class="project-category">IBM</p>
+            </a>
+          </li>
+
+
+          <li class="project-item  active" data-filter-item data-category="badges">
+            <a href="https://www.credly.com/badges/cf05787f-12b1-4d2a-ad40-b258b95eec7f/public_url">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/cyber.png" alt="task manager" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Introduction to Cybersecurity</h3>
+
+              <p class="project-category">Cisco</p>
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="badges">
+            <a href="https://www.credly.com/badges/b3129550-2a2f-4d7c-8de5-5c40dccb4176/public_url">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/docker-essentials-a-developer-introduction.png"
+                  alt="task manager" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Docker Essentials: A Developer Introduction</h3>
+
+              <p class="project-category">IBM</p>
+            </a>
+          </li>
+
+
+          <li class="project-item  active" data-filter-item data-category="badges">
+            <a
+              href="https://api.badgr.io/public/assertions/I_KuRN1FQ3mYv5IiAhE7Gg?identity__email=22p31a0506%40acet.ac.in">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./certifications/certiimages/postman.png" alt="task manager" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">PostMan API Fundamentals : Student Expert</h3>
+
+              <p class="project-category">Postamn Academy</p>
+            </a>
+          </li>
+        </ul>
+
+
+        </section>
+      </article>
+
+      <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                        CONTACT ME
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <article class="projects" data-page="profile">
+        <header>
+          <h2 class="h2 article-title">Coding Profiles</h2>
+        </header>
+
+        <!-- Leetcode Section -->
+        <div class="profile-section">
+          <h1 class="profile-title">Leetcode</h1>
+          <div class="profile-content">
+            <a href="https://leetcode.com/kowshik0105/">
+              <img src="https://leetcard.jacoblin.cool/kowshik0105?theme=light&font=Kurale&ext=activity"
+                alt="Kowshik's Leetcode Stats" class="leetcode-image">
+            </a>
+          </div>
+        </div>
+
+        <!-- GeeksforGeeks Section -->
+        <div class="profile-section">
+          <h1 class="profile-title">GeeksforGeeks</h1>
+          <div class="profile-content">
+            <a href="https://www.geeksforgeeks.org/user/kowshik0105/">
+              <img src="https://geeks-for-geeks-stats-api.vercel.app/?userName=kowshik0105"
+                alt="Kowshik's GeeksforGeeks Stats" class="geeksforgeeks-image">
+            </a>
+          </div>
+        </div>
+
+
+        <!-- CodeChef Section -->
+        <div class="profile-section">
+          <h1 class="profile-title">CodeChef</h1>
+          <div class="profile-content">
+            <a href="https://www.codechef.com/users/kowshik0105" target="_blank">
+              <img src="./images/codechef.png" alt="CodeChef Stats" class="codechef-image">
+            </a>
+          </div>
+        </div>
+
+        <!-- HackerRank Section -->
+        <div class="profile-section">
+          <h1 class="profile-title">HackerRank</h1>
+          <div class="profile-content">
+            <p id="hackerrank-stats">
+              <a href="https://www.hackerrank.com/profile/kowshik01052005" target="_blank">
+                <img src="./images/hackerrank.png" alt="HackerRank Stats" class="profile-image">
+                <!-- HackerRank stats will be inserted here by JavaScript -->
+            </p>
+          </div>
+        </div>
+
+        <!-- GitHub Section -->
+        <div class="profile-section">
+          <h1 class="profile-title">GitHub</h1>
+          <div class="profile-content">
+            <div style="text-align: center;">
+              <a href="https://github.com/kowshikjallipalli0105" target="_blank">
+                <img
+                  src="https://github-readme-stats.vercel.app/api/top-langs?username=kowshikjallipalli0105&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false"
+                  alt="GitHub Stats" class="github-image">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-section">
+        <div class="profile-content">
+          <div style="text-align: center;">
+            <a href="https://github.com/kowshikjallipalli0105" target="_blank">
+              <img
+                src="https://github-readme-stats.vercel.app/api?username=kowshikjallipalli0105&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=false&disable_animations=false&theme=dark&locale=en&hide_border=false"
+                alt="GitHub Stats" class="github-image">
+            </a>
+          </div>
+        </div>
+        </div>
+        <div class="profile-section">
+          <div class="profile-content">
+            <div style="text-align: center;">
+              <a href="https://github.com/kowshikjallipalli0105" target="_blank">
+                <img
+                  src="https://streak-stats.demolab.com?user=kowshikjallipalli0105&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3"
+                  alt="GitHub Stats" class="github-image">
+              </a>
+            </div>
+          </div>
+          </div>
+      
+
+        <div class="relative">
+          <h1 class="profile-title"> ✍️ Contact 🦄</h1>
+
+          <!-- First Row: LinkedIn, Instagram, Twitter -->
+          <div class="flex justify-center gap-14 mt-24">
+            <a href="https://www.linkedin.com/in/kowshik-jallipalli/">
+              <img alt="LinkedIn" class="pro" src="certifications/certiimages/linkedln.jpeg" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com/kowshikguptha/">
+              <img alt="Instagram" class="pro" src="certifications/certiimages/instagram.jpeg" width="30" height="30">
+            </a>
+            <a href="https://twitter.com/">
+              <img alt="Twitter" class="pro" src="certifications/certiimages/X.jpeg" width="30" height="30">
+            </a>
+          </div>
+
+          <!-- Second Row: Mail, Call -->
+          <div class="flex justify-center gap-14 mt-8">
+            <a href="mailto:jallipallikowshikguptha@gmail.com">
+              <img alt="Mail" class="pro" src="certifications/certiimages/MAIL.jpeg" width="30" height="30">
+            </a>
+            <a href="tel:+919542879464">
+              <img alt="Call" class="pro" src="certifications/certiimages/CALL.jpeg" width="30" height="30">
+            </a>
+          </div>
+
+          <br>
+          <!-- Third Row: WhatsApp -->
+          <div class="flex justify-center gap-14 mt-8 mb-24">
+            <a href="https://wa.me/+919542879464">
+              <img alt="WhatsApp" class="pro" src="certifications/certiimages/whatsapp.svg" width="30" height="30">
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                                 CUSTOM JS LINK
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <script src="script.js"></script>
+
+
+      <!-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                                 ionicon link 
+                              ------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
